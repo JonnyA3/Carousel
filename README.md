@@ -8,7 +8,7 @@ Time spent: 18 hours spent in total
 
 ## User Stories
 
-The following **required** functionality is complete:
+[ The following **required** functionality is complete: ]
 
 Landing Screen
 * [X] Static photo tiles on the initial screen.
@@ -36,7 +36,7 @@ Settings
 * [X] User can dismiss the settings screen.
 * [X] User can log out.
 
-The following **optional** features are implemented:
+[ The following **optional** features are implemented: ]
 
 Landing Screen:
 * [ ] Photo tiles move, scale and rotate while user scrolls.
