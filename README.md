@@ -60,7 +60,7 @@ Learn more about Carousel:
 * [ ] Tap the X to dismiss the banner.
 
 Track the 3 events:
-* [ ] (1) View a photo full screen, (2) Swipe left and right and (3) Share a photo.
+* [ ] 1) View a photo full screen, 2) Swipe left and right and 3) Share a photo.
 * [ ] Upon completion of the events, mark them green.
 * [ ] When all events are completed, dismiss the banner.
 
