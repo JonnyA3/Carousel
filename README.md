@@ -20,41 +20,53 @@ Sign In
 * [X] If the username or password fields are empty, user sees an error alert.
 * [ ] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
 * [X] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
-3. Tutorial Screens
+
+Tutorial Screens
 * [X] User can page between the screens.
-4. Image Timeline
+
+Image Timeline
 * [X] Display a scrollable view of images.
 * [X] User can tap on the conversations button to see the conversations screen (push).
 * [X] User can tap on the profile image to see the settings view (modal from below).
-5. Conversations
+
+Conversations
 * [X] User can dismiss the conversations screen.
-6. Settings
+
+Settings
 * [X] User can dismiss the settings screen.
 * [X] User can log out.
 
 The following **optional** features are implemented:
-1. Landing Screen:
+
+Landing Screen:
 * [ ] Photo tiles move, scale and rotate while user scrolls.
-2. Sign In:
+
+Sign In:
 * [ ] User can scroll down to dismiss keyboard.
 * [ ] User sees the form scale up and fade it in as the screen appears.
-3. Sign up / Create a Dropbox:
+
+Sign up / Create a Dropbox:
 * [ ] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
 * [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
 * [ ] Tapping on "Terms" shows a web view with the terms.
 * [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
-4. Tutorial Screens:
+
+Tutorial Screens:
 * [ ] User can page between the screens with updated dots.
 * [ ] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
-5. Learn more about Carousel:
+
+Learn more about Carousel:
 * [ ] Show the "Learn more about Carousel" button in the photo timeline.
 * [ ] Tap the X to dismiss the banner.
+
 Track the 3 events:
 * [ ] (1) View a photo full screen, (2) Swipe left and right and (3) Share a photo.
 * [ ] Upon completion of the events, mark them green.
 * [ ] When all events are completed, dismiss the banner.
-6. Settings
+
+Settings
 * [ ] User is presented with an action sheet with actions to "cancel" or "logout".
+
 
 The following **additional** features are implemented:
 
