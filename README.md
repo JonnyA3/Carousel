@@ -4,7 +4,7 @@ Carousel is an awesome standalone Dropbox app that was shut down on March 31, 20
 
 Submitted by: Jonny
 
-Time spent: 18 hours spent in total
+Time spent: 19 hours spent in total
 
 ## User Stories
 
@@ -52,8 +52,8 @@ Sign up / Create a Dropbox:
 * [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 
 Tutorial Screens:
-* [ ] User can page between the screens with updated dots.
-* [ ] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+* [X] User can page between the screens with updated dots.
+* [X] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
 
 Learn more about Carousel:
 * [ ] Show the "Learn more about Carousel" button in the photo timeline.
@@ -75,13 +75,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://github.com/JonnyA3/Pickupcircle/blob/master/Pickupcircle%20demo.gif" target="_blank"><img src='https://github.com/JonnyA3/Pickupcircle/blob/master/Pickupcircle%20demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+<a href="https://github.com/JonnyA3/Carousel/blob/master/carousel.gif" target="_blank"><img src='https://github.com/JonnyA3/Carousel/blob/master/carousel.gif title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I feel like the way I got some things to work was either janky or definitely not best practice. The tricky thing is identifying what was done incorrectly and how I SHOULD have implemented it.
+Still trucking along. Definately feel more confident debugging. I want to make sure I'm balancing how much time I spend trying to figure out a problem with how soon I should ask for help after I get stuck.'
 
 ## License
 
