@@ -9,10 +9,10 @@ Time spent: 18 hours spent in total
 ## User Stories
 
 The following **required** functionality is complete:
-1. Landing Screen
+**Landing Screen**
 * [X] Static photo tiles on the initial screen.
 * [X] User can scroll to reveal sign in buttons.
-2. Sign In
+**Sign In**
 * [X] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
     Upon tapping the Sign In button.
 * [X] If the username or password fields are empty, user sees an error alert.
