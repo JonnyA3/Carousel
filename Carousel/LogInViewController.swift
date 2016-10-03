@@ -95,7 +95,8 @@ class LogInViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func didPressSignIn(_ sender: AnyObject) {
         
         
-        if emailField.text!.isEmpty || passwordField.text!.isEmpty {
+        if emailField.text!.isEmpty || passwordField.text!.isEmpty
+        {
             // Code that runs if either field is empty
             
             let alertController = UIAlertController(title: "Email Required", message: "Please enter your email address", preferredStyle: .alert)
@@ -112,38 +113,44 @@ class LogInViewController: UIViewController, UIScrollViewDelegate {
                 // optional code for what happens after the alert controller has finished presenting
             }
             
-        } else {
+        } else
+        {
             // Code that runs if either field has text
 
             self.activityIndicator.startAnimating()
 
             // Delay for 2 seconds, then run the code between the braces.
             let secondsToDelay = 2.0
-            run(after: secondsToDelay) {
+            run(after: secondsToDelay)
+            {
                 // This code will run after the delay
                 
-                if self.emailField.text == "jonny" && self.passwordField.text == "password" {
+                if self.emailField.text == "jonny@wesomesauce.com" && self.passwordField.text == "password" {
                     // Code that runs if both email and password match the text we are looking for in each case
                     
                         self.performSegue(withIdentifier: "signIn", sender: nil)
                     
                     
-                } else {
+                } else
+                {
                     // Code that runs if either the email or password do NOT match the text we are looking for in each case
                     
-//                    let alertController = UIAlertController(title: "Invalid Email or Password", message: "Please enter a valid Email and Password", preferredStyle: .alert)
-//                    
-//                    // create an OK action
-//                    let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
-//                        // handle response here.
-//                    }
-//                    // add the OK action to the alert controller
-//                    alertController.addAction(OKAction)
-//                    
-//                    
-//                    self.present(alertController, animated: true) {
-//                        // optional code for what happens after the alert controller has finished presenting
+                    let alertController = UIAlertController(title: "Invalid Email or Password", message: "Please enter a valid Email and Password", preferredStyle: .alert)
                     
+                    // create an OK action
+                    let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                        // handle response here.
+                    }
+                    // add the OK action to the alert controller
+                    alertController.addAction(OKAction)
+                    
+                    
+                    self.present(alertController, animated: true) {
+                        // optional code for what happens after the alert controller has finished presenting
+                        self.activityIndicator.stopAnimating()
+                        
+                    }
+                
                 }
                 
             }
