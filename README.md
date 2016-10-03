@@ -18,7 +18,7 @@ Sign In
 * [X] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
     Upon tapping the Sign In button.
 * [X] If the username or password fields are empty, user sees an error alert.
-* [ ] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
+* [X] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
 * [X] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 
 Tutorial Screens
