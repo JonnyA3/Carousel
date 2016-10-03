@@ -20,7 +20,7 @@ class PagesViewController: UIViewController, UIScrollViewDelegate {
 
         // Do any additional setup after loading the view.
         
-        pageScrollView.contentSize = CGSize(width: 1500, height: 667)
+        pageScrollView.contentSize = CGSize(width: 1500, height: 600)
         
         pageScrollView.delegate = self
         
