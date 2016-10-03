@@ -13,6 +13,7 @@ The following **required** functionality is complete:
 Landing Screen
 * [X] Static photo tiles on the initial screen.
 * [X] User can scroll to reveal sign in buttons.
+
 Sign In
 * [X] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
     Upon tapping the Sign In button.
