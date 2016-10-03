@@ -11,8 +11,8 @@ import UIKit
 class PagesViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var pageScrollView: UIScrollView!
-    
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var spinView: UIView!
     
     
     override func viewDidLoad() {
@@ -24,7 +24,9 @@ class PagesViewController: UIViewController, UIScrollViewDelegate {
         
         pageScrollView.delegate = self
         
+        spinView.alpha = 0
         
+        print(pageScrollView.frame)
         
     }
 
@@ -32,6 +34,8 @@ class PagesViewController: UIViewController, UIScrollViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+ 
+    
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         // This method is called as the user scrolls
@@ -46,14 +50,11 @@ class PagesViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         // This method is called right as the user lifts their finger
-    
-   
         
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         // This method is called when the scrollview finally stops scrolling.
-        
 
         
         // Get the current page based on the scroll offset
@@ -62,6 +63,22 @@ class PagesViewController: UIViewController, UIScrollViewDelegate {
         // Set the current page, so the dots will update
         pageControl.currentPage = page
         
+        
+        if page == 3 {
+            
+            pageControl.isHidden = true
+            spinView.alpha = 1
+
+            print("show btn")
+            
+        } else {
+
+            pageControl.isHidden = false
+            spinView.alpha = 0
+            
+            print("hide btn")
+
+            }
         
 
         

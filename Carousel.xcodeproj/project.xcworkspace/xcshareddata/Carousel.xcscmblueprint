@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "217C9423F5938D73EC18983E9AC2B05F9972D388",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A1FEC8715128F78366E95D45226D04DD4E06C6C" : 9223372036854775807,
+    "217C9423F5938D73EC18983E9AC2B05F9972D388" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C6849DF-4753-4BAE-A301-57002059D5A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A1FEC8715128F78366E95D45226D04DD4E06C6C" : "Carousel\/Carousel\/",
+    "217C9423F5938D73EC18983E9AC2B05F9972D388" : "Carousel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Carousel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Carousel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JonnyA3\/Carousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "217C9423F5938D73EC18983E9AC2B05F9972D388"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JonnyA3\/Carousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A1FEC8715128F78366E95D45226D04DD4E06C6C"
+    }
+  ]
+}

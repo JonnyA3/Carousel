@@ -36,8 +36,6 @@ class LogInViewController: UIViewController, UIScrollViewDelegate {
         buttonOffset = -200
         
         
-        fieldScrollView.contentSize = CGSize(width: 375, height: 220)
-        
         fieldScrollView.delegate = self
         
         // Set the scroll view content size
