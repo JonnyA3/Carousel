@@ -75,7 +75,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://github.com/JonnyA3/Carousel/blob/master/carousel.gif" target="_blank"><img src='https://github.com/JonnyA3/Carousel/blob/master/carousel.gif title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+<a href="https://github.com/JonnyA3/Carousel/blob/master/carousel.gif" target="_blank"><img src='https://github.com/JonnyA3/Carousel/blob/master/carousel.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
