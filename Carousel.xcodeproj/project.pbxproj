@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8121FAE1DA077450024DCE1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8121FAD1DA077450024DCE1 /* LogInViewController.swift */; };
+		C85162041D9F116A004B2108 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85162031D9F116A004B2108 /* PagesViewController.swift */; };
 		C85AE4C71D9C8F6500AE4EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4C61D9C8F6500AE4EEA /* AppDelegate.swift */; };
-		C85AE4C91D9C8F6500AE4EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4C81D9C8F6500AE4EEA /* ViewController.swift */; };
 		C85AE4CC1D9C8F6500AE4EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85AE4CA1D9C8F6500AE4EEA /* Main.storyboard */; };
 		C85AE4CE1D9C8F6500AE4EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85AE4CD1D9C8F6500AE4EEA /* Assets.xcassets */; };
 		C85AE4D11D9C8F6600AE4EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85AE4CF1D9C8F6600AE4EEA /* LaunchScreen.storyboard */; };
 		C85AE4DC1D9C8F6600AE4EEA /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4DB1D9C8F6600AE4EEA /* CarouselTests.swift */; };
 		C85AE4E71D9C8F6600AE4EEA /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4E61D9C8F6600AE4EEA /* CarouselUITests.swift */; };
+		C85AE4F51D9C970800AE4EEA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4F41D9C970800AE4EEA /* Common.swift */; };
+		C85AE4F71D9C99C000AE4EEA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AE4F61D9C99C000AE4EEA /* IntroViewController.swift */; };
+		C8D72D141DA1F131007C92C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D72D131DA1F131007C92C3 /* SettingsViewController.swift */; };
+		C8D72D161DA1F802007C92C3 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D72D151DA1F802007C92C3 /* TimelineViewController.swift */; };
+		C8E2E9921DA1D04900FE9FDD /* conversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E2E9911DA1D04900FE9FDD /* conversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8121FAD1DA077450024DCE1 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = Carousel/LogInViewController.swift; sourceTree = "<group>"; };
+		C85162031D9F116A004B2108 /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
 		C85AE4C31D9C8F6500AE4EEA /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85AE4C61D9C8F6500AE4EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C85AE4C81D9C8F6500AE4EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C85AE4CB1D9C8F6500AE4EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C85AE4CD1D9C8F6500AE4EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C85AE4D01D9C8F6600AE4EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		C85AE4E21D9C8F6600AE4EEA /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85AE4E61D9C8F6600AE4EEA /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		C85AE4E81D9C8F6600AE4EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85AE4F41D9C970800AE4EEA /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C85AE4F61D9C99C000AE4EEA /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		C8D72D131DA1F131007C92C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C8D72D151DA1F802007C92C3 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		C8E2E9911DA1D04900FE9FDD /* conversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		C85AE4BA1D9C8F6400AE4EEA = {
 			isa = PBXGroup;
 			children = (
+				C8121FAD1DA077450024DCE1 /* LogInViewController.swift */,
 				C85AE4C51D9C8F6500AE4EEA /* Carousel */,
 				C85AE4DA1D9C8F6600AE4EEA /* CarouselTests */,
 				C85AE4E51D9C8F6600AE4EEA /* CarouselUITests */,
@@ -97,9 +110,14 @@
 		C85AE4C51D9C8F6500AE4EEA /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				C85162031D9F116A004B2108 /* PagesViewController.swift */,
 				C85AE4C61D9C8F6500AE4EEA /* AppDelegate.swift */,
-				C85AE4C81D9C8F6500AE4EEA /* ViewController.swift */,
+				C85AE4F41D9C970800AE4EEA /* Common.swift */,
 				C85AE4CA1D9C8F6500AE4EEA /* Main.storyboard */,
+				C8D72D151DA1F802007C92C3 /* TimelineViewController.swift */,
+				C8D72D131DA1F131007C92C3 /* SettingsViewController.swift */,
+				C8E2E9911DA1D04900FE9FDD /* conversationsViewController.swift */,
+				C85AE4F61D9C99C000AE4EEA /* IntroViewController.swift */,
 				C85AE4CD1D9C8F6500AE4EEA /* Assets.xcassets */,
 				C85AE4CF1D9C8F6600AE4EEA /* LaunchScreen.storyboard */,
 				C85AE4D21D9C8F6600AE4EEA /* Info.plist */,
@@ -259,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85AE4C91D9C8F6500AE4EEA /* ViewController.swift in Sources */,
+				C85AE4F71D9C99C000AE4EEA /* IntroViewController.swift in Sources */,
+				C85162041D9F116A004B2108 /* PagesViewController.swift in Sources */,
+				C8D72D141DA1F131007C92C3 /* SettingsViewController.swift in Sources */,
+				C85AE4F51D9C970800AE4EEA /* Common.swift in Sources */,
+				C8E2E9921DA1D04900FE9FDD /* conversationsViewController.swift in Sources */,
+				C8D72D161DA1F802007C92C3 /* TimelineViewController.swift in Sources */,
+				C8121FAE1DA077450024DCE1 /* LogInViewController.swift in Sources */,
 				C85AE4C71D9C8F6500AE4EEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +527,7 @@
 				C85AE4ED1D9C8F6600AE4EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85AE4EE1D9C8F6600AE4EEA /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +536,7 @@
 				C85AE4F01D9C8F6600AE4EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85AE4F11D9C8F6600AE4EEA /* Build configuration list for PBXNativeTarget "CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +545,7 @@
 				C85AE4F31D9C8F6600AE4EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
