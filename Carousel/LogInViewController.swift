@@ -79,6 +79,10 @@ class LogInViewController: UIViewController, UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func tapBackButton(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+    }
 
     @IBAction func didTap(_ sender: AnyObject) {
         

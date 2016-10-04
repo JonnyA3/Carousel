@@ -4,7 +4,7 @@ Carousel is an awesome standalone Dropbox app that was shut down on March 31, 20
 
 Submitted by: Jonny
 
-Time spent: 19 hours spent in total
+Time spent: 21 hours spent in total
 
 ## User Stories
 
@@ -39,7 +39,7 @@ Settings
 [ The following **optional** features are implemented: ]
 
 Landing Screen:
-* [ ] Photo tiles move, scale and rotate while user scrolls.
+* [X] Photo tiles move, scale and rotate while user scrolls.
 
 Sign In:
 * [ ] User can scroll down to dismiss keyboard.
@@ -81,7 +81,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Still trucking along. Definately feel more confident debugging. I want to make sure I'm balancing how much time I spend trying to figure out a problem with how soon I should ask for help after I get stuck.'
+Still trucking along. Definately feel more confident debugging and finding issues. I'm still trying to balance how much time I spend trying to figure out a problem with how soon I should ask for help after I get stuck.
 
 ## License
 

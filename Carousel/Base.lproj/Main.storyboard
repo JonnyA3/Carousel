@@ -27,19 +27,19 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile1" id="ea4-lP-qPT">
-                                        <rect key="frame" x="69" y="888" width="153" height="152"/>
+                                        <rect key="frame" x="72" y="891" width="153" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile2" id="fwZ-gt-JhZ">
-                                        <rect key="frame" x="230" y="888" width="76" height="75"/>
+                                        <rect key="frame" x="227" y="891" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile3" id="VS7-Ad-U7F">
-                                        <rect key="frame" x="230" y="969" width="76" height="76"/>
+                                        <rect key="frame" x="227" y="969" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile4" id="SWd-bl-cpT">
-                                        <rect key="frame" x="69" y="1047" width="76" height="76"/>
+                                        <rect key="frame" x="72" y="1046" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile5" id="UIg-YB-hWL">
@@ -47,7 +47,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="intro_tile6" id="1pP-AV-5sU">
-                                        <rect key="frame" x="230" y="1048" width="76" height="75"/>
+                                        <rect key="frame" x="228" y="1048" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jIV-mB-g3c">
@@ -66,8 +66,14 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1392"/>
                     <connections>
+                        <outlet property="fiveViewController" destination="UIg-YB-hWL" id="4id-nM-ONw"/>
+                        <outlet property="fourViewController" destination="SWd-bl-cpT" id="m8h-uj-kfN"/>
                         <outlet property="imageView" destination="39W-3Y-aiw" id="A34-xq-16D"/>
+                        <outlet property="oneViewController" destination="ea4-lP-qPT" id="TkH-8d-R0E"/>
                         <outlet property="scrollView" destination="5MA-kx-BpM" id="Otv-tZ-aNu"/>
+                        <outlet property="sixViewController" destination="1pP-AV-5sU" id="GKY-iK-Qnp"/>
+                        <outlet property="threeViewController" destination="VS7-Ad-U7F" id="Ha4-OY-6F2"/>
+                        <outlet property="twoViewController" destination="fwZ-gt-JhZ" id="1Ih-fB-Nap"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -89,6 +95,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LbO-N9-ZBb" userLabel="back UIButton">
                                 <frame key="frameInset" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="cDv-p4-ocb" eventType="touchUpInside" id="dzo-fS-YNC"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="A9O-Ak-qsy">
                                 <frame key="frameInset" minY="88" width="375" height="579"/>
