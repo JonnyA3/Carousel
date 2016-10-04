@@ -81,7 +81,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Still trucking along. Definately feel more confident debugging and finding issues. I'm still trying to balance how much time I spend trying to figure out a problem with how soon I should ask for help after I get stuck.
+Still trucking along. Definitely feel more confident debugging and finding issues. I'm still trying to balance how much time I spend trying to figure out a problem with how soon I should ask for help after I get stuck.
 
 ## License
 
