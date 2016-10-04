@@ -8,67 +8,54 @@ Time spent: 21 hours spent in total
 
 ## User Stories
 
-[ The following **required** functionality is complete: ]
+### The following **required** functionality is complete:
 
-Landing Screen
-* [X] Static photo tiles on the initial screen.
-* [X] User can scroll to reveal sign in buttons.
+1. Landing Screen
+- [x] Static photo tiles on the initial screen.
+- [x] User can scroll to reveal sign in buttons.
+1. Sign In
+- [x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
+- Upon tapping the Sign In button.
+- [x] If the username or password fields are empty, user sees an error alert.
+- [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
+- [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+1. Tutorial Screens
+- [x] User can page between the screens.
+1. Image Timeline
+- [x] Display a scrollable view of images.
+- [x] User can tap on the conversations button to see the conversations screen (push).
+- [x] User can tap on the profile image to see the settings view (modal from below).
+1. Conversations
+- [x] User can dismiss the conversations screen.
+1. Settings
+- [x] User can dismiss the settings screen.
+- [x] User can log out.
 
-Sign In
-* [X] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
-    Upon tapping the Sign In button.
-* [X] If the username or password fields are empty, user sees an error alert.
-* [X] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
-* [X] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+### The following **optional** features are implemented:
 
-Tutorial Screens
-* [X] User can page between the screens.
+1. Landing Screen:  
+- [x] Photo tiles move, scale and rotate while user scrolls.
+1. Sign In:
+- [ ] User can scroll down to dismiss keyboard.
+- [ ] User sees the form scale up and fade it in as the screen appears.
+1. Sign up / Create a Dropbox:
+- [ ] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
+- [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
+- [ ] Tapping on "Terms" shows a web view with the terms.
+- [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+1. Tutorial Screens:
+- [x] User can page between the screens with updated dots.
+- [x] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+1. Learn more about Carousel:
+- [ ] Show the "Learn more about Carousel" button in the photo timeline.
+- [ ] Tap the X to dismiss the banner.
+- [ ] Track the 3 events:
+- (1) View a photo full screen, (2) Swipe left and right and (3) Share a photo  - Upon completion of the events, mark them green.
+- [ ] When all events are completed, dismiss the banner.
+1. Settings
+- [ ] User is presented with an action sheet with actions to cancel or logout.
 
-Image Timeline
-* [X] Display a scrollable view of images.
-* [X] User can tap on the conversations button to see the conversations screen (push).
-* [X] User can tap on the profile image to see the settings view (modal from below).
-
-Conversations
-* [X] User can dismiss the conversations screen.
-
-Settings
-* [X] User can dismiss the settings screen.
-* [X] User can log out.
-
-[ The following **optional** features are implemented: ]
-
-Landing Screen:
-* [X] Photo tiles move, scale and rotate while user scrolls.
-
-Sign In:
-* [ ] User can scroll down to dismiss keyboard.
-* [ ] User sees the form scale up and fade it in as the screen appears.
-
-Sign up / Create a Dropbox:
-* [ ] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
-* [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
-* [ ] Tapping on "Terms" shows a web view with the terms.
-* [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
-
-Tutorial Screens:
-* [X] User can page between the screens with updated dots.
-* [X] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
-
-Learn more about Carousel:
-* [ ] Show the "Learn more about Carousel" button in the photo timeline.
-* [ ] Tap the X to dismiss the banner.
-
-Track the 3 events:
-* [ ] 1) View a photo full screen, 2) Swipe left and right and 3) Share a photo.
-* [ ] Upon completion of the events, mark them green.
-* [ ] When all events are completed, dismiss the banner.
-
-Settings
-* [ ] User is presented with an action sheet with actions to "cancel" or "logout".
-
-
-The following **additional** features are implemented:
+### The following **additional** features are implemented:
 
 
 ## Video Walkthrough 
